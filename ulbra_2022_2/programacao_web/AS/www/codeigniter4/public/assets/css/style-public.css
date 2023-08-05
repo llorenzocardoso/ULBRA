@@ -1,0 +1,13 @@
+body{
+    font-family: Helvetica;
+    overflow-x: hidden;
+}
+
+header{
+    padding-top: 15px;
+    padding-bottom: 1px;
+}
+
+footer{
+    background-color: rgb(226, 226, 226);
+}

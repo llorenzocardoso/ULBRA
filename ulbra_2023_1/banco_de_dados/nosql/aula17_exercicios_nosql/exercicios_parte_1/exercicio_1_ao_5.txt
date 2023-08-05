@@ -1,0 +1,63 @@
+Exercícios
+
+O que é NoSQL e como ele difere dos bancos de dados SQL tradicionais? Forneça exemplos de ambos.
+
+    NoSQL é um tipo de banco de dados que difere dos bancos de dados SQL tradicionais em termos de esquema, escalabilidade e consultas. Aqui está um resumo das diferenças principais:
+
+    Esquema: Bancos de dados SQL têm um esquema rígido e predefinido, enquanto bancos de dados NoSQL permitem flexibilidade e não exigem uma estrutura fixa.
+
+    Escalabilidade: Bancos de dados SQL tradicionais escalam verticalmente, exigindo atualizações de hardware, enquanto bancos de dados NoSQL escalam horizontalmente, adicionando mais servidores.
+
+    Consultas e consistência: Bancos de dados SQL têm consultas estruturadas com SQL, enquanto bancos de dados NoSQL têm linguagens de consulta mais simples e específicas. A consistência dos dados também pode variar nos bancos de dados NoSQL.
+
+    editoras(id PRIMARY KEY, nome, localizacao);
+    livros(id PRIMARY KEY, titulo, categoria, id_editora FOREIGN KEY);
+    autores(id PRIMARY KEY, nome, email);
+    autores_livros(id_autor FOREIGN KEY, id_livro FOREIGN KEY);
+
+    {
+      "nome": "João",
+      "idade": 30,
+      "email": "joao@example.com",
+      "ativo": true
+    }
+
+Descreva os quatro principais tipos de bancos de dados NoSQL mencionados no texto, incluindo exemplos de cada um.
+
+    MongoDB - Um banco de dados de documentos amplamente utilizado, que oferece uma ampla gama de recursos e uma sintaxe poderosa para consultas.
+    Redis: Um banco de dados de chave-valor em memória, que é conhecido por sua velocidade e capacidade de armazenar diversos tipos de dados.
+    Cassandra: Um banco de dados de colunas escalável e altamente disponível, projetado para lidar com grandes volumes de dados distribuídos em vários servidores.
+    Neo4j: Um banco de dados de grafos que permite armazenar, consultar e manipular dados relacionais em forma de grafo.
+
+Escolha uma das ferramentas NoSQL mencionadas no texto (MongoDB, Redis, Cassandra, Neo4j) e descreva suas características principais e casos de uso típicos.
+
+  	O MongoDB é um banco de dados NoSQL orientado a documentos que se destaca por sua flexibilidade de esquema, escalabilidade horizontal e consultas poderosas. Ele permite armazenar dados de forma flexível, sem um esquema rígido, e escalar horizontalmente para lidar com grandes volumes de dados. O MongoDB é adequado para uma variedade de casos de uso, incluindo aplicativos da web, gerenciamento de conteúdo, análise de dados, IoT e comércio eletrônico. Sua capacidade de consulta avançada e alta disponibilidade tornam-no uma opção popular para aplicativos modernos e em constante evolução.
+
+Quais são as diferenças entre a estrutura de dados e o modelo de consulta em bancos de dados SQL e NoSQL? Como essas diferenças influenciam a escolha entre um tipo de banco de dados e outro?
+
+    A principal diferença entre bancos de dados SQL e NoSQL é a estrutura dos dados e o modelo de consulta.
+    Estrutura de Dados:
+
+      SQL: Os bancos de dados SQL têm uma estrutura de dados rígida baseada em tabelas relacionais. Os esquemas são definidos com antecedência e todas as entradas devem seguir a estrutura especificada.
+      NoSQL: Os bancos de dados NoSQL têm uma estrutura flexível. Não há esquema fixo e diferentes formatos de dados, como documentos, colunas, grafos ou pares de chave-valor, podem ser armazenados no mesmo banco de dados.
+
+    Modelo de Consulta:
+
+      SQL: Os bancos de dados SQL utilizam a linguagem SQL (Structured Query Language) para consultas. O SQL é uma linguagem declarativa padronizada que permite consultas complexas, junções de tabelas, agregações, ordenação e filtragem dos dados.
+      NoSQL: Os bancos de dados NoSQL têm modelos de consulta específicos, que variam de acordo com o tipo de banco de dados. Alguns bancos de dados NoSQL usam consultas simples com métodos de busca, enquanto outros oferecem recursos para consultas orientadas a documentos, gráficos ou pesquisa em texto completo.
+
+    Lembre-se de que a escolha entre SQL e NoSQL depende dos requisitos específicos do seu projeto. É importante entender as características e as limitações de cada tipo de banco de dados para tomar uma decisão informada.
+
+Explique a estrutura de um objeto JSON e como ele é usado em bancos de dados NoSQL orientados a documentos. Dê um exemplo de como um objeto JSON pode ser usado para armazenar informações complexas.
+
+    Um objeto JSON é uma estrutura de dados leve que é amplamente utilizada para representar informações de forma estruturada. Ele consiste em pares de chave-valor, em que a chave é uma string e o valor pode ser de qualquer tipo de dados suportado pelo JSON (como string, número, booleano, array ou outro objeto JSON).
+
+    Em bancos de dados NoSQL orientados a documentos, como o MongoDB, o formato JSON é comumente utilizado para armazenar dados complexos. Os documentos JSON são usados para representar entidades individuais, sendo que cada documento pode ter sua própria estrutura de campos e valores, sem a necessidade de um esquema fixo.
+
+    Exemplo:
+    {
+      "nome": "João",
+      "idade": 30,
+      "email": "joao@example.com",
+      "ativo": true
+    }

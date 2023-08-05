@@ -1,0 +1,9 @@
+db.Courses.insertOne({
+  courseName: "Mathematics",
+  teacherName: "John Smith",
+  students: [
+    { firstName: "Alice", lastName: "Johnson" },
+    { firstName: "Bob", lastName: "Thompson" },
+    { firstName: "Carol", lastName: "Davis" }
+  ]
+})

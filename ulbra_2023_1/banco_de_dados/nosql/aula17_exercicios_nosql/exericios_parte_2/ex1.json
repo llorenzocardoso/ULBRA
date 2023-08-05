@@ -1,0 +1,20 @@
+[
+    {
+      "firstName": "João",
+      "lastName": "Silva",
+      "age": 15,
+      "grade": 9
+    },
+    {
+      "firstName": "Maria",
+      "lastName": "Santos",
+      "age": 14,
+      "grade": 8
+    },
+    {
+      "firstName": "Pedro",
+      "lastName": "Ferreira",
+      "age": 16,
+      "grade": 10
+    }
+]

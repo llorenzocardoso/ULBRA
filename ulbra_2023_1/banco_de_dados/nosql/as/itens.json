@@ -1,0 +1,98 @@
+[
+    {
+        "_id": 1,
+        "nome": "pizza",
+        "sabores": [
+            {
+                "sabor": "calabresa",
+                "tamanhos": [
+                    {"tamanho": "P", "valor": 89.90},
+                    {"tamanho": "M", "valor": 100},
+                    {"tamanho": "G", "valor": 120}
+                ]
+            },
+            {
+                "sabor": "chocolate com morango",
+                "tamanhos": [
+                    {"tamanho": "P", "valor": 89.90},
+                    {"tamanho": "M", "valor": 100},
+                    {"tamanho": "G", "valor": 120}
+                ]
+            },
+            {
+                "sabor": "portuguesa",
+                "tamanhos": [
+                    {"tamanho": "P", "valor": 89.90},
+                    {"tamanho": "M", "valor": 100},
+                    {"tamanho": "G", "valor": 120}
+                ]
+            },
+            {
+                "sabor": "coracao",
+                "tamanhos": [
+                    {"tamanho": "P", "valor": 89.90},
+                    {"tamanho": "M", "valor": 100},
+                    {"tamanho": "G", "valor": 120}
+                ]
+            },
+            {
+                "sabor": "strogonoff",
+                "tamanhos": [
+                    {"tamanho": "P", "valor": 89.90},
+                    {"tamanho": "M", "valor": 100},
+                    {"tamanho": "G", "valor": 120}
+                ]
+            }
+        ]
+    },
+    {
+        "_id": 2,
+        "nome": "refrigerante",
+        "sabores": [
+            {
+                "sabor": "coca cola",
+                "estoque": 18,
+                "tamanhos": [
+                    {"tamanho": "350ml", "valor": 6},
+                    {"tamanho": "600ml", "valor": 10},
+                    {"tamanho": "2l", "valor": 15}
+                ]
+            },
+            {
+                "sabor": "fanta",
+                "estoque": 15,
+                "tamanhos": [
+                    {"tamanho": "350ml", "valor": 6},
+                    {"tamanho": "600ml", "valor": 10},
+                    {"tamanho": "2l", "valor": 15}
+                ]
+            },
+            {
+                "sabor": "guarana",
+                "estoque": 16,
+                "tamanhos": [
+                    {"tamanho": "350ml", "valor": 6},
+                    {"tamanho": "600ml", "valor": 10},
+                    {"tamanho": "2l", "valor": 15}
+                ]
+            },
+            {
+                "sabor": "sprite",
+                "estoque": 15,
+                "tamanhos": [
+                    {"tamanho": "350ml", "valor": 6},
+                    {"tamanho": "600ml", "valor": 10},
+                    {"tamanho": "2l", "valor": 15}
+                ]
+            }
+        ]
+    },
+    {
+        "_id": 3,
+        "nome": "chicletes",
+        "sabores": [
+            {"sabor": "melancia", "estoque": 50},
+            {"sabor": "hortela", "estoque": 40}
+        ]
+    }
+]

@@ -1,0 +1,102 @@
+CRITICAL - 2022-11-08 17:08:59 --> Non-static method CodeIgniter\BaseModel::findAll() cannot be called statically
+in APPPATH/Controllers/Client.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Client->listClients()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 17:25:07 --> Non-static method CodeIgniter\BaseModel::findAll() cannot be called statically
+in APPPATH/Controllers/Client.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Client->listClients()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 17:25:49 --> Non-static method CodeIgniter\BaseModel::findAll() cannot be called statically
+in APPPATH/Controllers/Client.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Client->listClients()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 17:26:10 --> Non-static method CodeIgniter\BaseModel::findAll() cannot be called statically
+in APPPATH/Controllers/Client.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Client->listClients()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 17:26:40 --> Class "App\Models\Model" not found
+in APPPATH/Models/ClientModel.php on line 7.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(282): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Models/ClientModel.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ClientModel')
+ 4 APPPATH/Controllers/Client.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ClientModel')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Client->listClients()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 17:27:48 --> Non-static method CodeIgniter\BaseModel::findAll() cannot be called statically
+in APPPATH/Controllers/Client.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Client->listClients()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 17:28:15 --> Non-static method CodeIgniter\BaseModel::findAll() cannot be called statically
+in APPPATH/Controllers/Client.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Client->listClients()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 17:28:20 --> Non-static method CodeIgniter\BaseModel::findAll() cannot be called statically
+in APPPATH/Controllers/Client.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Client->listClients()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 17:29:43 --> Class "App\Controllers\ClientModelo" not found
+in APPPATH/Controllers/Client.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Client->listClients()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 17:30:50 --> Undefined variable $arrayClients
+in APPPATH/Views/client/listClients.php on line 13.
+ 1 APPPATH/Views/client/listClients.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $arrayClients', 'APPPATH/Views/client/listClients.php', 13)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/client/listClients.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('client/listClients', [], true)
+ 5 APPPATH/Controllers/Client.php(16): view('client/listClients', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Client->listClients()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:06:34 --> Undefined variable $arrayClients
+in APPPATH/Views/client/listClients.php on line 13.
+ 1 APPPATH/Views/client/listClients.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $arrayClients', 'APPPATH/Views/client/listClients.php', 13)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/client/listClients.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('client/listClients', [], true)
+ 5 APPPATH/Controllers/Client.php(16): view('client/listClients', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Client->listClients()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:20:45 --> Non-static method CodeIgniter\Session\Session::has() cannot be called statically
+in APPPATH/Controllers/Admin/Admin.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Admin->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:32:27 --> syntax error, unexpected token "}"
+in APPPATH/Controllers/Admin/User.php on line 12.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Admin/User.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\User')
+ 4 SYSTEMPATH/CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin\\User', true)
+ 5 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:32:37 --> Undefined variable $username
+in APPPATH/Controllers/Admin/User.php on line 11.
+ 1 APPPATH/Controllers/Admin/User.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'APPPATH/Controllers/Admin/User.php', 11)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\User->validateLogin()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

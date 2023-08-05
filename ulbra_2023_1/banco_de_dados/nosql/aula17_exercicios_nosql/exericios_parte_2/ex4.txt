@@ -1,0 +1,1 @@
+db.Students.deleteOne({ firstName: "Maria", lastName: "Santos" })

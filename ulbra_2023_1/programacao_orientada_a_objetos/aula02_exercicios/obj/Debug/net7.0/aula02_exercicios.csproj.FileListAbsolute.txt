@@ -1,0 +1,15 @@
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula02_exercicios\bin\Debug\net7.0\aula02_exercicios.exe
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula02_exercicios\bin\Debug\net7.0\aula02_exercicios.deps.json
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula02_exercicios\bin\Debug\net7.0\aula02_exercicios.runtimeconfig.json
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula02_exercicios\bin\Debug\net7.0\aula02_exercicios.dll
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula02_exercicios\bin\Debug\net7.0\aula02_exercicios.pdb
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula02_exercicios\obj\Debug\net7.0\aula02_exercicios.csproj.AssemblyReference.cache
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula02_exercicios\obj\Debug\net7.0\aula02_exercicios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula02_exercicios\obj\Debug\net7.0\aula02_exercicios.AssemblyInfoInputs.cache
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula02_exercicios\obj\Debug\net7.0\aula02_exercicios.AssemblyInfo.cs
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula02_exercicios\obj\Debug\net7.0\aula02_exercicios.csproj.CoreCompileInputs.cache
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula02_exercicios\obj\Debug\net7.0\aula02_exercicios.dll
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula02_exercicios\obj\Debug\net7.0\refint\aula02_exercicios.dll
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula02_exercicios\obj\Debug\net7.0\aula02_exercicios.pdb
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula02_exercicios\obj\Debug\net7.0\aula02_exercicios.genruntimeconfig.cache
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula02_exercicios\obj\Debug\net7.0\ref\aula02_exercicios.dll

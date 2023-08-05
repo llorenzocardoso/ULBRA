@@ -1,0 +1,48 @@
+[
+    {
+        "_id": 1,
+        "_idCliente": 1,
+        "itens": [
+            {"_idItem": 1, "qtd": 2, "valor": 120, "tamanho": "G", "sabores":["calabresa"]},
+            {"_idItem": 1, "qtd": 1, "valor": 89.90, "tamanho": "P", "sabores":["chocolate com morango"]},
+            {"_idItem": 2, "qtd": 2, "valor": 15, "tamanho": "2l", "sabores":["coca cola", "guarana"]}
+        ],
+        "entrega": true,
+        "numeroMesa": null,
+        "endereco": {
+            "rua": "rua123",
+            "bairro": "bairro 123",
+            "numero": "123"
+        },
+        "valorTotal": 359.90,
+        "dataEntrega": "2023-06-24"
+    },
+    {
+        "_id": 2,
+        "_idCliente": 1,
+        "itens": [
+            {"_idItem": 1, "qtd": 1, "valor": 100, "tamanho": "M", "sabores": ["coracao"]},
+            {"_idItem": 1, "qtd": 1, "valor": 120, "tamanho": "G", "sabores": ["portuguesa"]},
+            {"_idItem": 2, "qtd": 1, "valor": 15, "tamanho": "2l", "sabores": ["sprite"]}
+        ],
+        "entrega": false,
+        "numeroMesa": 5,
+        "endereco": null,
+        "valorTotal": 235,
+        "dataEntrega": null
+    },
+    {
+        "_id": 3,
+        "_idCliente": 2,
+        "itens": [
+            {"_idItem": 1, "qtd": 1, "valor": 89.90, "tamanho": "P", "sabores": ["chocolate com morango"]},
+            {"_idItem": 1, "qtd": 1, "valor": 120, "tamanho": "G", "sabores": ["strogonoff"]},
+            {"_idItem": 2, "qtd": 1, "valor": 15, "tamanho": "2l", "sabores": ["fanta"]}
+        ],
+        "entrega": false,
+        "numeroMesa": 3,
+        "endereco": null,
+        "valorTotal": 224.90,
+        "dataEntrega": null
+    }
+]

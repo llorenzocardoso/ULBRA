@@ -1,0 +1,15 @@
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\ap1\bin\Debug\net7.0\ap1.exe
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\ap1\bin\Debug\net7.0\ap1.deps.json
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\ap1\bin\Debug\net7.0\ap1.runtimeconfig.json
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\ap1\bin\Debug\net7.0\ap1.dll
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\ap1\bin\Debug\net7.0\ap1.pdb
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\ap1\obj\Debug\net7.0\ap1.csproj.AssemblyReference.cache
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\ap1\obj\Debug\net7.0\ap1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\ap1\obj\Debug\net7.0\ap1.AssemblyInfoInputs.cache
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\ap1\obj\Debug\net7.0\ap1.AssemblyInfo.cs
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\ap1\obj\Debug\net7.0\ap1.csproj.CoreCompileInputs.cache
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\ap1\obj\Debug\net7.0\ap1.dll
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\ap1\obj\Debug\net7.0\refint\ap1.dll
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\ap1\obj\Debug\net7.0\ap1.pdb
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\ap1\obj\Debug\net7.0\ap1.genruntimeconfig.cache
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\ap1\obj\Debug\net7.0\ref\ap1.dll

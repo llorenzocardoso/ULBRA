@@ -1,0 +1,15 @@
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula11_exercicios_interfaces\bin\Debug\net7.0\aula11_exercicios_interfaces.exe
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula11_exercicios_interfaces\bin\Debug\net7.0\aula11_exercicios_interfaces.deps.json
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula11_exercicios_interfaces\bin\Debug\net7.0\aula11_exercicios_interfaces.runtimeconfig.json
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula11_exercicios_interfaces\bin\Debug\net7.0\aula11_exercicios_interfaces.dll
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula11_exercicios_interfaces\bin\Debug\net7.0\aula11_exercicios_interfaces.pdb
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula11_exercicios_interfaces\obj\Debug\net7.0\aula11_exercicios_interfaces.csproj.AssemblyReference.cache
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula11_exercicios_interfaces\obj\Debug\net7.0\aula11_exercicios_interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula11_exercicios_interfaces\obj\Debug\net7.0\aula11_exercicios_interfaces.AssemblyInfoInputs.cache
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula11_exercicios_interfaces\obj\Debug\net7.0\aula11_exercicios_interfaces.AssemblyInfo.cs
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula11_exercicios_interfaces\obj\Debug\net7.0\aula11_exercicios_interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula11_exercicios_interfaces\obj\Debug\net7.0\aula11_exercicios_interfaces.dll
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula11_exercicios_interfaces\obj\Debug\net7.0\refint\aula11_exercicios_interfaces.dll
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula11_exercicios_interfaces\obj\Debug\net7.0\aula11_exercicios_interfaces.pdb
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula11_exercicios_interfaces\obj\Debug\net7.0\aula11_exercicios_interfaces.genruntimeconfig.cache
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula11_exercicios_interfaces\obj\Debug\net7.0\ref\aula11_exercicios_interfaces.dll

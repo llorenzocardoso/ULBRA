@@ -1,0 +1,27 @@
+CRITICAL - 2022-11-21 15:37:29 --> Invalid file: admin/templates/header.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/templates/header.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/templates/header', [], true)
+ 3 APPPATH/Controllers/Admin/Admin.php(12): view('admin/templates/header')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Admin->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 15:37:58 --> Invalid file: admin/templates/header.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/templates/header.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/templates/header', [], true)
+ 3 APPPATH/Controllers/Admin/Admin.php(12): view('admin/templates/header')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Admin->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 15:38:16 --> Invalid file: admin/templates/header.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/templates/header.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/templates/header', [], true)
+ 3 APPPATH/Controllers/Admin/Admin.php(12): view('admin/templates/header')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Admin->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

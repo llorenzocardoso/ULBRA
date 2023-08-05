@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*header banner*/
+.banner{
+    background-image: url(./assets/images/banner.jpg);
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+}
+
+/*header menu*/
+nav h1{
+    background-color: cadetblue;
+}
+
+/*-------//-------*/
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}

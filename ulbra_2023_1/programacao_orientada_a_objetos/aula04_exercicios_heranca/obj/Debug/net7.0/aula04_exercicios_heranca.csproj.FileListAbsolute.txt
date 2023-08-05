@@ -1,0 +1,15 @@
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula04_exercicios_heranca\bin\Debug\net7.0\aula04_exercicios_heranca.exe
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula04_exercicios_heranca\bin\Debug\net7.0\aula04_exercicios_heranca.deps.json
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula04_exercicios_heranca\bin\Debug\net7.0\aula04_exercicios_heranca.runtimeconfig.json
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula04_exercicios_heranca\bin\Debug\net7.0\aula04_exercicios_heranca.dll
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula04_exercicios_heranca\bin\Debug\net7.0\aula04_exercicios_heranca.pdb
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula04_exercicios_heranca\obj\Debug\net7.0\aula04_exercicios_heranca.csproj.AssemblyReference.cache
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula04_exercicios_heranca\obj\Debug\net7.0\aula04_exercicios_heranca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula04_exercicios_heranca\obj\Debug\net7.0\aula04_exercicios_heranca.AssemblyInfoInputs.cache
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula04_exercicios_heranca\obj\Debug\net7.0\aula04_exercicios_heranca.AssemblyInfo.cs
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula04_exercicios_heranca\obj\Debug\net7.0\aula04_exercicios_heranca.csproj.CoreCompileInputs.cache
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula04_exercicios_heranca\obj\Debug\net7.0\aula04_exercicios_heranca.dll
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula04_exercicios_heranca\obj\Debug\net7.0\refint\aula04_exercicios_heranca.dll
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula04_exercicios_heranca\obj\Debug\net7.0\aula04_exercicios_heranca.pdb
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula04_exercicios_heranca\obj\Debug\net7.0\aula04_exercicios_heranca.genruntimeconfig.cache
+C:\Users\Lorenzo\Documents\ULBRA\ulbra_2023_1\programacao_orientada_a_objetos\aula04_exercicios_heranca\obj\Debug\net7.0\ref\aula04_exercicios_heranca.dll
