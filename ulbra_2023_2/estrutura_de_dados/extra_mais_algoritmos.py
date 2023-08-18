@@ -70,6 +70,3 @@
 
 # print("IMC calculado: ", imc_calculado)
 # print("Seu resultado: ", classificacao)
-
-# 3 - Escreva um algoritmo que receba uma lista de números utilizando um separador de sua escolha e retorne o valor máximo e mínimo da lista. Utilize uma função para a tarefa de verificar os números.
-
