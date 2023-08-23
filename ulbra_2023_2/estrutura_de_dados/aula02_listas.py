@@ -1,4 +1,5 @@
-# 1 - Faça um algoritmo que receba em uma lista uma sequência de números separados por “vírgula” e após a sua digitação imprima no terminal a soma de todos os números pares presentes na lista. Utilize uma função para realizar a soma dos números (soma_pares()).
+'''1 - Faça um algoritmo que receba em uma lista uma sequência de números separados por “vírgula” e após a sua digitação imprima no terminal a soma de todos os números pares presentes na lista. Utilize uma função para realizar a soma dos números (soma_pares()).'''
+
 # lista os numeros validos
 # numeros_validos = []
 
@@ -30,7 +31,7 @@
 # print("Soma: ", soma_geral(numeros_validos))
 # print("Soma dos pares: ", somas_pares(numeros_validos))
 
-# 2 - Escreva um algoritmo que calcule o IMC de uma pessoa, ele deverá receber o peso (em quilogramas) e a altura (em metros) e retornar o seu índice de massa corporal (IMC). Utilize a fórmula imc = peso / altura2. O algoritmo deverá usar duas funções uma para calcular outra para classificar o imc Imprima no terminal as duas saídas, valor do imc e classificação.
+'''2 - Escreva um algoritmo que calcule o IMC de uma pessoa, ele deverá receber o peso (em quilogramas) e a altura (em metros) e retornar o seu índice de massa corporal (IMC). Utilize a fórmula imc = peso / altura2. O algoritmo deverá usar duas funções uma para calcular outra para classificar o imc Imprima no terminal as duas saídas, valor do imc e classificação.'''
 
 # def verifica(mensagem):
 #     while True:
@@ -67,7 +68,7 @@
 # print("IMC calculado: ", imc_calculado)
 # print("Seu resultado: ", classificacao)
 
-# 3 - Escreva um algoritmo que receba uma lista de números utilizando um separador de sua escolha e retorne o valor máximo e mínimo da lista. Utilize uma função para a tarefa de verificar os números.
+'''3 - Escreva um algoritmo que receba uma lista de números utilizando um separador de sua escolha e retorne o valor máximo e mínimo da lista. Utilize uma função para a tarefa de verificar os números.'''
 
 # def encontrar_maximo_minimo(lista):
 #     numeros = lista.split()
@@ -84,7 +85,7 @@
 # print("Valor máximo:", maximo)
 # print("Valor mínimo:", minimo)
 
-# 4 - Escreva uma função chamada conta_vogais que recebe uma string e retorna o número de vogais (a, e, i, o, u) presentes na string.
+'''4 - Escreva uma função chamada conta_vogais que recebe uma string e retorna o número de vogais (a, e, i, o, u) presentes na string.'''
 
 # def conta_vogais(texto):
 #     vogais = "aeiouAEIOU"
