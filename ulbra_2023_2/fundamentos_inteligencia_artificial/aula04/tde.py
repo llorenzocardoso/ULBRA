@@ -25,13 +25,11 @@ for i in range(len(valores)):
     entradas = valores[i][0]
 
     ajustes = 1
-    count = 0
     while ajustes != 0:
         ajustes = 0
         valor_rampa = funcao_rampa(entradas, pesos)
         if valor_rampa != saida_desejada:
             ajustes += 1
             pesos = funcao_ajuste(pesos, entradas, saida_desejada, valor_rampa)
-        count += 1
 
-    print(f'Saida = {valor_rampa}\nNumero de vezes repetidas: {count}')
+    print(f'Saida = {valor_rampa}')
