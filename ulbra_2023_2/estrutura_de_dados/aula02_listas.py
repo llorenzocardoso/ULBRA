@@ -1,30 +1,30 @@
 '''1 - Faça um algoritmo que receba em uma lista uma sequência de números separados por “vírgula” e após a sua digitação imprima no terminal a soma de todos os números pares presentes na lista. Utilize uma função para realizar a soma dos números (soma_pares()).'''
 
 # lista os numeros validos
-# numeros_validos = []
+numeros_validos = []
 
-# print("Digite uma lista de numeros separados por espaco: ")
-# entrada = input().split(",")
+print("Digite uma lista de numeros separados por espaco: ")
+entrada = input().split(",")
 
-# def somas_pares(lista):
-#     soma = 0
-#     for i in lista:
-#         if i % 2 == 0:
-#             soma += i
-#     return soma
+def somas_pares(lista):
+    soma = 0
+    for i in lista:
+        if i % 2 == 0:
+            soma += i
+    return soma
 
-# def soma_geral(lista):
-#     soma = 0
-#     for i in lista:
-#         soma += i
-#     return soma
+def soma_geral(lista):
+    soma = 0
+    for i in lista:
+        soma += i
+    return soma
 
-# for i in entrada:
-#     try:
-#         numero = int(i)
-#         numeros_validos.append(numero)
-#     except ValueError:
-#         print(f"Valor ({i}) invalido! Digite um numero inteiro valido!!")
+for i in entrada:
+    try:
+        numero = int(i)
+        numeros_validos.append(numero)
+    except ValueError:
+        print(f"Valor ({i}) invalido! Digite um numero inteiro valido!!")
 
     
 # print("Numeros validos: ", numeros_validos)

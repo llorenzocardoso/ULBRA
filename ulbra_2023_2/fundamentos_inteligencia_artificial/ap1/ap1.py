@@ -9,7 +9,7 @@ celsius = np.array([-40, -10,  0,  8, 15, 22,  38], dtype=float)
 fahrenheit = np.array([-40,  14, 32, 46.4, 59, 71.6, 100], dtype=float)
 
 # definindo a camada de neurônios
-l1 = Dense(units=1, input_shape=[1])
+l1 = Dense(units=2, input_shape=[1])
 
 # criando o modelo, nesse caso sequencial, que recebe a camada definida anteriormente
 model = Sequential([l1])
