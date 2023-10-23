@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Variáveis</title>
+    <style>
+        .input-container {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Cadastro de Variáveis</h2>
+    <form id="variable-form" onsubmit="return false">
+        <div class="input-container">
+            <label for="variable-name">Nome da Variável:</label>
+            
+            <input type="text" id="variable-name" name="variableName" required>
+            <select name="tipo-variavel" id="tipo-variavel">
+                <option value="numerica">Numérica</option>
+                <option value="texto">Texto</option>
+            </select>
+        </div>
+        <div class="input-container">
+            <label for="variable-values">Valores da Variável:</label>
+            <div id="values-container">
+                <input type="text" name="variableValues[]" class="variableValues" required>
+            </div>
+            <button type="button" id="values-btn" onclick="addInputField()">Adicionar Valor</button>
+        </div>
+        <button type="submit" id="submit-form-variaveis" onclick="enviarVariavel()">Cadastrar</button>
+    </form>
+</body>
+
+</html>

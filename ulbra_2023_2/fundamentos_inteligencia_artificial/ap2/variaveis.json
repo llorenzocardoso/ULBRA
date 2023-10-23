@@ -1,0 +1,14 @@
+[
+    {
+        "nome": "preferencia",
+        "valores": ["vegetariano", "vegano", "onivoro"]
+    },
+    {
+        "nome": "restricao",
+        "valores": ["soja", "gluten", "lactose"]
+    },
+    {
+        "nome": "meta",
+        "valores": ["ganhar peso", "perder", "manter"]
+    }
+]
