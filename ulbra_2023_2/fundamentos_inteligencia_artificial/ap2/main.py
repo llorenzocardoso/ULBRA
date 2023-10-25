@@ -11,11 +11,11 @@ resposta = ''
 for variavelAtual in variaveis:
     nomeVariavel = variavelAtual["nome"]
     mensagem = ''
-    print(f"Qual a sua {nomeVariavel} alimentar")
+    print(f"Qual a sua {nomeVariavel} alimentar?")
     for valores in variavelAtual["valores"]:
         mensagem += valores + " "
         
-    valor = input("Valores possiveis: " + mensagem)
+    valor = input("Valores possiveis: " + mensagem + ": ")
     
 # agora estamos comparando de acordo com as regras o que foi informado pelo usuario
 
@@ -23,4 +23,4 @@ for variavelAtual in variaveis:
         if regra["variavel"] == nomeVariavel and regra["valor"] == valor:
             resposta += regra["resultado"]
 
-print(resposta)
+print("Recomendacao: " + resposta )

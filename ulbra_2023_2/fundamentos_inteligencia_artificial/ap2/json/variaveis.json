@@ -2,9 +2,9 @@
     {
         "nome": "preferencia",
         "valores": [
-            "vegetariano",
-            "vegano",
-            "onivoro"
+            "vegetariana",
+            "vegana",
+            "padrao"
         ]
     },
     {
@@ -12,7 +12,8 @@
         "valores": [
             "soja",
             "gluten",
-            "lactose"
+            "lactose",
+            "nenhuma"
         ]
     },
     {

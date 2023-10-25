@@ -16,15 +16,21 @@ form {
     border-radius: 5px;
 }
 
-label, input, select {
+label, select {
     display: block;
     width: 100%;
     margin-bottom: 10px;
 }
 
+input{
+    display: block;
+    width: 98%;
+    margin-bottom: 10px;
+}
+
 button {
     width: 100%;
-    padding: px;
+    padding: 10px;
     background-color: #4CAF50;
     color: #fff;
     border: none;
