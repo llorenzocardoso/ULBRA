@@ -1,0 +1,57 @@
+[
+    {
+        "variavel": "preferencia",
+        "valor": "vegetariano",
+        "resultado": "Experimente alimentos ricos em proteínas vegetais, como quinoa e feijao."
+    },
+    {
+        "variavel": "preferencia",
+        "valor": "vegano",
+        "resultado": "Opte por alimentos a base de plantas e suplementos de vitamina B12, se necessario."
+    },
+    {
+        "variavel": "preferencia",
+        "valor": "onivoro",
+        "resultado": "Mantenha uma dieta equilibrada com uma variedade de alimentos de origem animal e vegetal."
+    },
+    {
+        "variavel": "preferencia",
+        "valor": "nenhuma",
+        "resultado": "Priorize alimentos nao processados, como carnes magras, peixes, frutas e vegetais."
+    },
+    {
+        "variavel": "restricao",
+        "valor": "gluten",
+        "resultado": "Evite alimentos com gluten, opte por opcoes sem gluten, como arroz e batata."
+    },
+    {
+        "variavel": "restricao",
+        "valor": "lactose",
+        "resultado": "Evite alimentos com lactose, opte por alternativas livres de lactose, como leite de amendoa ou de soja."
+    },
+    {
+        "variavel": "restricao",
+        "valor": "nozes",
+        "resultado": "Evite alimentos que contenham nozes, opte por opcoes livres de nozes, como sementes e frutas."
+    },
+    {
+        "variavel": "restricao",
+        "valor": "soja",
+        "resultado": "Evite alimentos com soja, opte por alternativas livres de soja, como tofu de grao-de-bico."
+    },
+    {
+        "variavel": "meta",
+        "valor": "ganhar",
+        "resultado": " Aumente a ingestao de calorias e proteinas saudaveis, e pratique exercicios de resistencia para ganhar massa muscular."
+    },
+    {
+        "variavel": "meta",
+        "valor": "perder",
+        "resultado": "Reduza a ingestao de calorias, consuma alimentos ricos em fibras e pratique exercicios regularmente para queimar gordura."
+    },
+    {
+        "variavel": "meta",
+        "valor": "manter",
+        "resultado": "Mantenha um equilibrio na ingestao de calorias e pratique exercicios regularmente para sustentar o peso atual."
+    }
+]

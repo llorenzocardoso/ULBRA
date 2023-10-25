@@ -1,8 +1,8 @@
 import json
 
-f = open('regras.json')
+f = open('json/regras.json')
 regras = json.load(f)
-f = open('variaveis.json')
+f = open('json/variaveis.json')
 variaveis = json.load(f)
 
 resposta = ''

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastrar Variáveis</title>
+</head>
+<body>
+    <form id="formVariaveis" method="POST" action="http://localhost:3000/salvarVariaveis">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"><br><br>
+        <label for="valores">Valores:</label>
+        <div id="valuesContainer">
+            <input type="text" class="valorInput" name="valores" placeholder="Valor 1"><br><br>
+        </div>
+        <button type="button" onclick="addInput()">Adicionar Valor</button><br><br>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script>
+        function addInput() {
+            const container = document.getElementById('valuesContainer');
+            const input = document.createElement('input');
+            const br = document.createElement('br');
+            input.type = 'text';
+            input.classList.add('valorInput');
+            input.name = 'valores';
+            input.placeholder = 'Novo Valor';
+            container.appendChild(input);
+            container.appendChild(br);
+        }
+
+        document.getElementById('formVariaveis').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const formData = new FormData(this);
+            const data = {};
+            const valores = [];
+            data.nome = formData.get('nome').trim();
+            formData.getAll('valores').forEach(value => {
+                if (value.trim() !== '') {
+                    valores.push(value.trim());
+                }
+            });
+            data.valores = valores;
+            fetch('http://localhost:3000/salvarVariaveis', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data),
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Success:', data);
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+        });
+    </script>
+</body>
+</html>
