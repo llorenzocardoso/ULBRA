@@ -1,20 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Enviar Dados</title>
+    <title>Cadastro de Regras</title>
+    <link rel="stylesheet" href="/assets/style_regras.css">
 </head>
 <body>
+    <button onclick="window.location.href='variaveis.html'" class="navigation-button">Cadastro de Variáveis</button>
+    <button onclick="window.location.href='../index.html'" class="navigation-button">Voltar à Home</button>
     <form id="form" method="POST" action="http://localhost:3000/salvarRegras">
+        <h1>Cadastrar Regras</h1>
+        <label>SE</label>
         <label for="variavel">Variável:</label>
-        <input type="text" id="variavel" name="variavel"><br><br>
+        <select id="variavel" name="variavel">
+            <option value="" disabled selected>Selecione uma variável</option>
+        </select>
         <label for="valor">Valor:</label>
-        <input type="text" id="valor" name="valor"><br><br>
+        <input type="text" id="valor" name="valor">
+        <label>ENTÃO</label>
         <label for="resultado">Resultado:</label>
-        <input type="text" id="resultado" name="resultado"><br><br>
+        <input type="text" id="resultado" name="resultado">
         <button type="submit">Enviar</button>
     </form>
-
     <script>
+        fetch('../json/variaveis.json')
+            .then(response => response.json())
+            .then(data => {
+                const select = document.getElementById('variavel');
+                data.forEach(item => {
+                    const option = document.createElement('option');
+                    option.value = item.nome;
+                    option.text = item.nome;
+                    select.appendChild(option);
+                });
+            })
+            .catch(error => console.error('Erro:', error));
+
         document.getElementById('form').addEventListener('submit', function(e) {
             e.preventDefault();
             const formData = new FormData(this);

@@ -18,6 +18,7 @@ for variavelAtual in variaveis:
     valor = input("Valores possiveis: " + mensagem)
     
 # agora estamos comparando de acordo com as regras o que foi informado pelo usuario
+
     for regra in regras:
         if regra["variavel"] == nomeVariavel and regra["valor"] == valor:
             resposta += regra["resultado"]
