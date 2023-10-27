@@ -1,0 +1,37 @@
+variaveis:
+    pilha[1..50]: caractere;
+    i, topo: inteiro;
+    palavra: string;
+
+funcao push(elemento):
+inicio
+    Se topo < 50:
+        topo ← topo + 1
+        pilha[topo] ← elemento
+    Senão:
+        Imprimir "Estouro da pilha"
+    fim-se
+fim
+
+funcao pop():
+inicio
+    Se topo > 0:
+        topo ← topo - 1
+    Senão:
+        Imprimir "Pilha vazia"
+    fim-se
+fim
+
+funcao imprimirInvertido(palavra):
+inicio
+    topo ← 0
+    Para i de 1 até tamanho de palavra:
+        push(palavra[i])
+    Para i de topo até 1 passo -1:
+        Imprimir pilha[i]
+    fim-se
+fim
+
+# Principal
+Leia palavra
+imprimirInvertido(palavra)
